@@ -14,7 +14,7 @@ namespace Yahoo
             IWebDriver driver = new ChromeDriver();
 
             driver.Navigate().GoToUrl("https://cricket.yahoo.net/");
-            driver.Manage().Window.Maximize();
+      
         }
     }
 }
